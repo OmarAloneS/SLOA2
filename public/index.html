@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Gestión de Productos - E-commerce</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Catálogo de Productos</h1>
+ <!-- Formulario para añadir un producto -->
+<section id="nuevo-producto">
+    <h2>Añadir Producto</h2>
+    <form id="formulario-producto">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required>
+        <input type="number" id="precio" placeholder="Precio del producto" required>
+        <button type="submit">Agregar Producto</button>
+    </form>
+</section>
+<!-- Lista de productos -->
+<section id="lista-productos">
+    <h2>Productos Disponibles</h2>
+    <ul id="productos">
+<!-- Los productos se cargarán aquí desde JavaScript -->
+    </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+   }
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+section {
+    margin: 20px 0;
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+#productos {
+    list-style: none;
+    padding: 0;
+}
+#productos li {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#productos li button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
